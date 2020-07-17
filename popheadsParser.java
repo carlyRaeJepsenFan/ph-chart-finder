@@ -8,10 +8,13 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+
 public class popheadsParser {
    private static final LocalDate firstPooDate = LocalDate.parse("2017-11-06");
    private static final LocalDate lastPooDate = LocalDate.parse("2019-04-29");
 
+
+   //prompts user for Song / Album, # of positions, and # of weeks ago
    public static void main(String[] args) {
       popheadsParser par = new popheadsParser();
       Scanner ask = new Scanner(System.in);
