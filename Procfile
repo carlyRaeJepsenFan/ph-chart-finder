@@ -1,1 +1,1 @@
-web: java popheadsParser.java $PORT
+web: java popheadsParser.class $PORT
